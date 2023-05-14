@@ -1,0 +1,22 @@
+.wpawn:hover{
+    transition-duration: 1s;
+    transform: translateY(-10vh);
+}
+
+.whorse:hover{
+    transition-duration: 1s;
+    transform: translate(-10vh,-20vh);
+}
+
+.wrook:hover,.wbishop:hover,.wking:hover,.wqueen:hover{
+    animation: invalid 100ms none 0s 4 normal ;
+}
+
+@keyframes invalid {
+    0%{
+        transform: translateX(1vh);
+    }
+    100%{
+        transform: translateX(-1vh);
+    }
+}

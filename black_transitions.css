@@ -1,0 +1,24 @@
+.bpawn:hover{
+    transition-duration: 1000ms;
+    transform: translateY(10vh);
+}
+
+.bhc:hover .bhorse{
+    transition-duration: 1000ms;
+    transform: translate(10vh,20vh);
+}
+
+.brook:hover,.bbishop:hover,.bking:hover,.bqueen:hover{
+    animation: invalid 100ms none 0s 4 normal ;
+}
+
+@keyframes invalid {
+    from{
+        transform: translateX(1vh);
+    }
+    to{
+        transform: translateX(-1vh);
+    }
+}
+
+
