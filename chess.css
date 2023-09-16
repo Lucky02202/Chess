@@ -54,7 +54,7 @@ h1{
 }
 
 .maincontainer:hover .container{
-    box-shadow: 0px 0px 1000px;
+    box-shadow: 0px 0px 100px black;
 }
 
 .chess{
